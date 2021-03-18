@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name eventArduinoMega-rescue)(type Legacy)(uri ${KIPRJMOD}/eventArduinoMega-rescue.lib)(options "")(descr ""))
+)

@@ -147,11 +147,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# eventArduinoMega-rescue_Arduino_Mega2560_Shield-arduino
+# eventArduinoMega-rescue_Arduino_Mega2560_Shield-arduino-eventArduinoMega-rescue
 #
-DEF eventArduinoMega-rescue_Arduino_Mega2560_Shield-arduino XA 0 40 Y Y 1 F N
+DEF eventArduinoMega-rescue_Arduino_Mega2560_Shield-arduino-eventArduinoMega-rescue XA 0 40 Y Y 1 F N
 F0 "XA" 100 0 60 V V C CNN
-F1 "eventArduinoMega-rescue_Arduino_Mega2560_Shield-arduino" -100 0 60 V V C CNN
+F1 "eventArduinoMega-rescue_Arduino_Mega2560_Shield-arduino-eventArduinoMega-rescue" -100 0 60 V V C CNN
 F2 "" 700 2750 60 H I C CNN
 F3 "" 700 2750 60 H I C CNN
 $FPLIST
@@ -294,11 +294,11 @@ X VIN VIN -1300 -2150 300 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# mikeShit_NHD-0420AZ-FSW-GBW-33V3
+# eventArduinoMega-rescue_NHD-0420AZ-FSW-GBW-33V3-mikeShit
 #
-DEF mikeShit_NHD-0420AZ-FSW-GBW-33V3 U 0 40 Y Y 1 F N
+DEF eventArduinoMega-rescue_NHD-0420AZ-FSW-GBW-33V3-mikeShit U 0 40 Y Y 1 F N
 F0 "U" -850 -900 50 H V C CNN
-F1 "mikeShit_NHD-0420AZ-FSW-GBW-33V3" 1100 -900 50 H V C CNN
+F1 "eventArduinoMega-rescue_NHD-0420AZ-FSW-GBW-33V3-mikeShit" 1100 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -322,11 +322,11 @@ X DB2 9 50 -250 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# mikeShit_SSCDRRN100MDAA5
+# eventArduinoMega-rescue_SSCDRRN100MDAA5-mikeShit
 #
-DEF mikeShit_SSCDRRN100MDAA5 U 0 40 Y Y 1 F N
+DEF eventArduinoMega-rescue_SSCDRRN100MDAA5-mikeShit U 0 40 Y Y 1 F N
 F0 "U" 250 150 50 H V C CNN
-F1 "mikeShit_SSCDRRN100MDAA5" 0 250 50 H V C CNN
+F1 "eventArduinoMega-rescue_SSCDRRN100MDAA5-mikeShit" 0 250 50 H V C CNN
 F2 "" -100 0 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 DRAW
@@ -343,11 +343,11 @@ X nc 8 -200 -400 100 R 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# mikeShit_microSDpololu
+# eventArduinoMega-rescue_microSDpololu-mikeShit
 #
-DEF mikeShit_microSDpololu U 0 40 Y Y 1 F N
+DEF eventArduinoMega-rescue_microSDpololu-mikeShit U 0 40 Y Y 1 F N
 F0 "U" 850 -400 50 H V C CNN
-F1 "mikeShit_microSDpololu" 900 -100 50 H V C CNN
+F1 "eventArduinoMega-rescue_microSDpololu-mikeShit" 900 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
