@@ -1,0 +1,414 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7300 7450 0    50   ~ 0
+Trying connections for pcb\n
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 605F13D7
+P 1300 1350
+F 0 "J?" H 1218 1025 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1218 1116 50  0000 C CNN
+F 2 "" H 1300 1350 50  0001 C CNN
+F 3 "~" H 1300 1350 50  0001 C CNN
+	1    1300 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 605F1E14
+P 2900 1250
+F 0 "U?" H 2900 1492 50  0000 C CNN
+F 1 "L7805" H 2900 1401 50  0000 C CNN
+F 2 "" H 2925 1100 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2900 1200 50  0001 C CNN
+	1    2900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:NHD-0420H1Z U?
+U 1 1 605F2D85
+P 5150 1750
+F 0 "U?" V 5196 906 50  0000 R CNN
+F 1 "NHD-0420H1Z" V 5105 906 50  0000 R CNN
+F 2 "Display:NHD-0420H1Z" H 5150 850 50  0001 C CNN
+F 3 "http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf" H 5250 1650 50  0001 C CNN
+	1    5150 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sensor_Pressure:40PC015G U?
+U 1 1 605F5847
+P 1950 7550
+F 0 "U?" H 1520 7596 50  0000 R CNN
+F 1 "40PC015G" H 1520 7505 50  0000 R CNN
+F 2 "" H 2050 7550 50  0001 C CNN
+F 3 "http://www.honeywellscportal.com//index.php?ci_id=138832" H 2050 7550 50  0001 C CNN
+	1    1950 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 605F873F
+P 2000 6550
+F 0 "R?" H 2068 6596 50  0000 L CNN
+F 1 "R_US" H 2068 6505 50  0000 L CNN
+F 2 "" V 2040 6540 50  0001 C CNN
+F 3 "~" H 2000 6550 50  0001 C CNN
+	1    2000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 605F92D9
+P 2900 6700
+F 0 "R?" H 2968 6746 50  0000 L CNN
+F 1 "R_US" H 2968 6655 50  0000 L CNN
+F 2 "" V 2940 6690 50  0001 C CNN
+F 3 "~" H 2900 6700 50  0001 C CNN
+	1    2900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 605F961C
+P 3750 6750
+F 0 "R?" H 3818 6796 50  0000 L CNN
+F 1 "R_US" H 3818 6705 50  0000 L CNN
+F 2 "" V 3790 6740 50  0001 C CNN
+F 3 "~" H 3750 6750 50  0001 C CNN
+	1    3750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 605F9948
+P 4350 7000
+F 0 "R?" H 4418 7046 50  0000 L CNN
+F 1 "R_US" H 4418 6955 50  0000 L CNN
+F 2 "" V 4390 6990 50  0001 C CNN
+F 3 "~" H 4350 7000 50  0001 C CNN
+	1    4350 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 605F9D9E
+P 3600 6000
+F 0 "R?" H 3668 6046 50  0000 L CNN
+F 1 "R_US" H 3668 5955 50  0000 L CNN
+F 2 "" V 3640 5990 50  0001 C CNN
+F 3 "~" H 3600 6000 50  0001 C CNN
+	1    3600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 605FA07F
+P 3250 6150
+F 0 "R?" H 3318 6196 50  0000 L CNN
+F 1 "R_US" H 3318 6105 50  0000 L CNN
+F 2 "" V 3290 6140 50  0001 C CNN
+F 3 "~" H 3250 6150 50  0001 C CNN
+	1    3250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605FA973
+P 1000 6100
+F 0 "C?" H 1115 6146 50  0000 L CNN
+F 1 "C" H 1115 6055 50  0000 L CNN
+F 2 "" H 1038 5950 50  0001 C CNN
+F 3 "~" H 1000 6100 50  0001 C CNN
+	1    1000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605FAEC0
+P 1450 6050
+F 0 "C?" H 1565 6096 50  0000 L CNN
+F 1 "C" H 1565 6005 50  0000 L CNN
+F 2 "" H 1488 5900 50  0001 C CNN
+F 3 "~" H 1450 6050 50  0001 C CNN
+	1    1450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605FB224
+P 2050 6000
+F 0 "C?" H 2165 6046 50  0000 L CNN
+F 1 "C" H 2165 5955 50  0000 L CNN
+F 2 "" H 2088 5850 50  0001 C CNN
+F 3 "~" H 2050 6000 50  0001 C CNN
+	1    2050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605FB567
+P 2400 5850
+F 0 "C?" H 2515 5896 50  0000 L CNN
+F 1 "C" H 2515 5805 50  0000 L CNN
+F 2 "" H 2438 5700 50  0001 C CNN
+F 3 "~" H 2400 5850 50  0001 C CNN
+	1    2400 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605FB906
+P 1650 5400
+F 0 "C?" H 1765 5446 50  0000 L CNN
+F 1 "C" H 1765 5355 50  0000 L CNN
+F 2 "" H 1688 5250 50  0001 C CNN
+F 3 "~" H 1650 5400 50  0001 C CNN
+	1    1650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605FBCB4
+P 950 5400
+F 0 "C?" H 1065 5446 50  0000 L CNN
+F 1 "C" H 1065 5355 50  0000 L CNN
+F 2 "" H 988 5250 50  0001 C CNN
+F 3 "~" H 950 5400 50  0001 C CNN
+	1    950  5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605FBF41
+P 700 5900
+F 0 "C?" H 815 5946 50  0000 L CNN
+F 1 "C" H 815 5855 50  0000 L CNN
+F 2 "" H 738 5750 50  0001 C CNN
+F 3 "~" H 700 5900 50  0001 C CNN
+	1    700  5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 605FCB94
+P 4050 4750
+F 0 "RV?" H 3983 4796 50  0000 R CNN
+F 1 "R_POT_US" H 3983 4705 50  0000 R CNN
+F 2 "" H 4050 4750 50  0001 C CNN
+F 3 "~" H 4050 4750 50  0001 C CNN
+	1    4050 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 605FD310
+P 4650 4750
+F 0 "RV?" H 4583 4796 50  0000 R CNN
+F 1 "R_POT_US" H 4583 4705 50  0000 R CNN
+F 2 "" H 4650 4750 50  0001 C CNN
+F 3 "~" H 4650 4750 50  0001 C CNN
+	1    4650 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 605FD7F3
+P 5350 4750
+F 0 "RV?" H 5283 4796 50  0000 R CNN
+F 1 "R_POT_US" H 5283 4705 50  0000 R CNN
+F 2 "" H 5350 4750 50  0001 C CNN
+F 3 "~" H 5350 4750 50  0001 C CNN
+	1    5350 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 605FDC79
+P 5950 4750
+F 0 "RV?" H 5883 4796 50  0000 R CNN
+F 1 "R_POT_US" H 5883 4705 50  0000 R CNN
+F 2 "" H 5950 4750 50  0001 C CNN
+F 3 "~" H 5950 4750 50  0001 C CNN
+	1    5950 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 605FE8AB
+P 9500 5300
+F 0 "J?" H 9528 5276 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9528 5185 50  0000 L CNN
+F 2 "" H 9500 5300 50  0001 C CNN
+F 3 "~" H 9500 5300 50  0001 C CNN
+	1    9500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 605FF5E6
+P 9100 4900
+F 0 "J?" H 9128 4876 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9128 4785 50  0000 L CNN
+F 2 "" H 9100 4900 50  0001 C CNN
+F 3 "~" H 9100 4900 50  0001 C CNN
+	1    9100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 605FFB03
+P 9600 4600
+F 0 "J?" H 9628 4576 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9628 4485 50  0000 L CNN
+F 2 "" H 9600 4600 50  0001 C CNN
+F 3 "~" H 9600 4600 50  0001 C CNN
+	1    9600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 6060003F
+P 10200 4800
+F 0 "J?" H 10228 4776 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 10228 4685 50  0000 L CNN
+F 2 "" H 10200 4800 50  0001 C CNN
+F 3 "~" H 10200 4800 50  0001 C CNN
+	1    10200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 60600590
+P 10550 5400
+F 0 "J?" H 10578 5376 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 10578 5285 50  0000 L CNN
+F 2 "" H 10550 5400 50  0001 C CNN
+F 3 "~" H 10550 5400 50  0001 C CNN
+	1    10550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 60600B85
+P 10200 5850
+F 0 "J?" H 10228 5826 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 10228 5735 50  0000 L CNN
+F 2 "" H 10200 5850 50  0001 C CNN
+F 3 "~" H 10200 5850 50  0001 C CNN
+	1    10200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 6060112D
+P 9300 5800
+F 0 "J?" H 9328 5776 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9328 5685 50  0000 L CNN
+F 2 "" H 9300 5800 50  0001 C CNN
+F 3 "~" H 9300 5800 50  0001 C CNN
+	1    9300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 606040EC
+P 8350 4700
+F 0 "J?" H 8378 4726 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8378 4635 50  0000 L CNN
+F 2 "" H 8350 4700 50  0001 C CNN
+F 3 "~" H 8350 4700 50  0001 C CNN
+	1    8350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60605987
+P 2000 4750
+F 0 "SW?" H 2000 5035 50  0000 C CNN
+F 1 "SW_Push" H 2000 4944 50  0000 C CNN
+F 2 "" H 2000 4950 50  0001 C CNN
+F 3 "~" H 2000 4950 50  0001 C CNN
+	1    2000 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60606491
+P 3350 4750
+F 0 "SW?" H 3350 5035 50  0000 C CNN
+F 1 "SW_Push" H 3350 4944 50  0000 C CNN
+F 2 "" H 3350 4950 50  0001 C CNN
+F 3 "~" H 3350 4950 50  0001 C CNN
+	1    3350 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60606AF7
+P 2650 4750
+F 0 "SW?" H 2650 5035 50  0000 C CNN
+F 1 "SW_Push" H 2650 4944 50  0000 C CNN
+F 2 "" H 2650 4950 50  0001 C CNN
+F 3 "~" H 2650 4950 50  0001 C CNN
+	1    2650 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60607115
+P 1200 4750
+F 0 "SW?" H 1200 5035 50  0000 C CNN
+F 1 "SW_Push" H 1200 4944 50  0000 C CNN
+F 2 "" H 1200 4950 50  0001 C CNN
+F 3 "~" H 1200 4950 50  0001 C CNN
+	1    1200 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Buzzer BZ?
+U 1 1 60607EDF
+P 7600 1350
+F 0 "BZ?" H 7752 1379 50  0000 L CNN
+F 1 "Buzzer" H 7752 1288 50  0000 L CNN
+F 2 "" V 7575 1450 50  0001 C CNN
+F 3 "~" V 7575 1450 50  0001 C CNN
+	1    7600 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60608D22
+P 8650 1350
+F 0 "D?" H 8643 1567 50  0000 C CNN
+F 1 "LED" H 8643 1476 50  0000 C CNN
+F 2 "" H 8650 1350 50  0001 C CNN
+F 3 "~" H 8650 1350 50  0001 C CNN
+	1    8650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J?
+U 1 1 6060B951
+P 7100 4300
+F 0 "J?" V 7004 4880 50  0000 L CNN
+F 1 "Micro_SD_Card" V 7095 4880 50  0000 L CNN
+F 2 "" H 8250 4600 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
