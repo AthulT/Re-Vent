@@ -169,7 +169,7 @@ F 4 "C" H 1400 4400 50  0001 C CNN "Spice_Primitive"
 F 5 "0.1u" H 1400 4400 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1400 4400 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    1400 4400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C4
@@ -183,7 +183,7 @@ F 4 "C" H 2200 4400 50  0001 C CNN "Spice_Primitive"
 F 5 "0.1u" H 2200 4400 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2200 4400 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    2200 4400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C6
@@ -197,7 +197,7 @@ F 4 "C" H 3550 4400 50  0001 C CNN "Spice_Primitive"
 F 5 "0.1u" H 3550 4400 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 3550 4400 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    3550 4400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C5
@@ -211,7 +211,7 @@ F 4 "C" H 2850 4400 50  0001 C CNN "Spice_Primitive"
 F 5 "0.1u" H 2850 4400 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2850 4400 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    2850 4400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C2
@@ -239,7 +239,7 @@ F 4 "C" H 8600 4750 50  0001 C CNN "Spice_Primitive"
 F 5 "1u" H 8600 4750 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 8600 4750 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    8600 4750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_POT_US Pot1
@@ -369,7 +369,7 @@ U 1 1 60605987
 P 2000 4750
 F 0 "SW2" H 2000 5035 50  0000 C CNN
 F 1 "SW_Push" H 2000 4944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH-12mm" H 2000 4950 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_CW_GPTS203211B" H 2000 4950 50  0001 C CNN
 F 3 "~" H 2000 4950 50  0001 C CNN
 	1    2000 4750
 	-1   0    0    1   
@@ -380,7 +380,7 @@ U 1 1 60606491
 P 3350 4750
 F 0 "SW4" H 3350 5035 50  0000 C CNN
 F 1 "SW_Push" H 3350 4944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH-12mm" H 3350 4950 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_CW_GPTS203211B" H 3350 4950 50  0001 C CNN
 F 3 "~" H 3350 4950 50  0001 C CNN
 	1    3350 4750
 	-1   0    0    1   
@@ -391,7 +391,7 @@ U 1 1 60606AF7
 P 2650 4750
 F 0 "SW3" H 2650 5035 50  0000 C CNN
 F 1 "SW_Push" H 2650 4944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH-12mm" H 2650 4950 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_CW_GPTS203211B" H 2650 4950 50  0001 C CNN
 F 3 "~" H 2650 4950 50  0001 C CNN
 	1    2650 4750
 	-1   0    0    1   
@@ -402,7 +402,7 @@ U 1 1 60607115
 P 1200 4750
 F 0 "SW1" H 1200 5035 50  0000 C CNN
 F 1 "SW_Push" H 1200 4944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH-12mm" H 1200 4950 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_CW_GPTS203211B" H 1200 4950 50  0001 C CNN
 F 3 "~" H 1200 4950 50  0001 C CNN
 	1    1200 4750
 	-1   0    0    1   
