@@ -303,7 +303,7 @@ U 1 1 605FE8AB
 P 1800 3900
 F 0 "J3" H 1828 3876 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 1828 3785 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1800 3900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1800 3900 50  0001 C CNN
 F 3 "~" H 1800 3900 50  0001 C CNN
 	1    1800 3900
 	0    -1   -1   0   
@@ -314,7 +314,7 @@ U 1 1 605FF5E6
 P 2450 3900
 F 0 "J4" H 2478 3876 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 2478 3785 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2450 3900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2450 3900 50  0001 C CNN
 F 3 "~" H 2450 3900 50  0001 C CNN
 	1    2450 3900
 	0    -1   -1   0   
@@ -325,7 +325,7 @@ U 1 1 605FFB03
 P 3150 3900
 F 0 "J5" H 3178 3876 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 3178 3785 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3150 3900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3150 3900 50  0001 C CNN
 F 3 "~" H 3150 3900 50  0001 C CNN
 	1    3150 3900
 	0    -1   -1   0   
@@ -336,7 +336,7 @@ U 1 1 6060003F
 P 7500 2050
 F 0 "J6" H 7528 2026 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 7528 1935 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 7500 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7500 2050 50  0001 C CNN
 F 3 "~" H 7500 2050 50  0001 C CNN
 	1    7500 2050
 	0    -1   1    0   
@@ -347,7 +347,7 @@ U 1 1 60600590
 P 1000 3900
 F 0 "J1" H 1028 3876 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 1028 3785 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1000 3900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1000 3900 50  0001 C CNN
 F 3 "~" H 1000 3900 50  0001 C CNN
 	1    1000 3900
 	0    -1   -1   0   
@@ -358,7 +358,7 @@ U 1 1 60600B85
 P 8800 2050
 F 0 "J7" H 8828 2026 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 8828 1935 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 8800 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 2050 50  0001 C CNN
 F 3 "~" H 8800 2050 50  0001 C CNN
 	1    8800 2050
 	0    1    1    0   
