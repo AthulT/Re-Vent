@@ -904,11 +904,7 @@ F 3 "" H 7900 5850 50  0001 C CNN
 $EndComp
 Text Label 7200 5350 2    50   ~ 0
 SDA
-Text Label 4500 2450 1    50   ~ 0
-SDA
 Text Label 7200 5250 2    50   ~ 0
-SCL
-Text Label 4600 2450 1    50   ~ 0
 SCL
 $Comp
 L Sensor:MAX30102 IC?
@@ -921,4 +917,8 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf" H 7450 5600 50  
 	1    7800 5350
 	1    0    0    -1  
 $EndComp
+Text Label 4200 4050 3    50   ~ 0
+SCL
+Text Label 4100 4050 3    50   ~ 0
+SDA
 $EndSCHEMATC
