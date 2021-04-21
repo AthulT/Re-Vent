@@ -842,4 +842,29 @@ F 3 "" H 8500 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 4550 3150 4750
+$Comp
+L Device:R_US R7
+U 1 1 607FE3A9
+P 5350 900
+F 0 "R7" H 5418 946 50  0000 L CNN
+F 1 "4.7k" H 5418 855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5390 890 50  0001 C CNN
+F 3 "~" H 5350 900 50  0001 C CNN
+F 4 "R" H 5350 900 50  0001 C CNN "Spice_Primitive"
+F 5 "4.7k" H 5350 900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5350 900 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    5350 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR034
+U 1 1 607FEDA5
+P 5350 750
+F 0 "#PWR034" H 5350 600 50  0001 C CNN
+F 1 "+5V" H 5365 923 50  0000 C CNN
+F 2 "" H 5350 750 50  0001 C CNN
+F 3 "" H 5350 750 50  0001 C CNN
+	1    5350 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
